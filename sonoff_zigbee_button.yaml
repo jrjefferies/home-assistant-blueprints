@@ -30,6 +30,7 @@ blueprint:
       selector:
         action: {}
   source_url: https://github.com/apollo1220/blueprints/blob/main/sonoff_zigbee_button.yaml
+mode: restart
 variables:
   button_id: !input 'button_id'
   press_action: !input 'press_action'
